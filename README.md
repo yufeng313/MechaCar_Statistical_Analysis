@@ -35,10 +35,11 @@ In addition, the p-value of our linear regression analysis is 5.35e-11, which is
 ![3 general sample ttest](https://user-images.githubusercontent.com/107179765/190931900-3ef60a83-3224-4171-8229-c052780cc997.png)<br/>
 Assuming our significance level is 0.05, our p-value of 0.72 is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the PSI across all manufacturing lots is statistically similar from the population mean of 1,500 pounds per square inch.
 ### t-test on the PSI for each manufacturing lot
+#### Lot1 & Lot2
 ![3 lot1 sample ttest](https://user-images.githubusercontent.com/107179765/190931922-1051de51-607f-4340-823d-cc1e24aeff6e.png)<br/>
 ![3 lot2 sample ttest](https://user-images.githubusercontent.com/107179765/190931924-78454cd5-2efd-40f8-a85e-bacaa675c3ae.png)<br/>
 Here the p-values are both below the significance level of 0.05 percent, so we can reject the null hypothesis and conclude that the PSI across the Lot 1& Lot 2 is statistically different from the population mean.<br/>
-
+#### Lot3
 ![3 lot3 sample ttest](https://user-images.githubusercontent.com/107179765/190931942-fa535c54-bb5e-4f25-a5bc-4d88eb90fe0d.png)<br/>
 Here the p-value is above the significance level, so we can conclude that the PSI for Lot3 are statistically similar to the population mean.
 
