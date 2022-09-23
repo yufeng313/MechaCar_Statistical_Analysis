@@ -32,16 +32,16 @@ In addition, the p-value of our linear regression analysis is 5.35e-11, which is
       
 ## T-Tests on Suspension Coils
 ### t-test on the PSI across all manufacturing lots
-![3 general sample ttest](https://user-images.githubusercontent.com/107179765/190931900-3ef60a83-3224-4171-8229-c052780cc997.png)<br/>
-Assuming our significance level is 0.05, our p-value of 0.72 is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the PSI across all manufacturing lots is statistically similar from the population mean of 1,500 pounds per square inch.
+![3 general sample t-test](https://user-images.githubusercontent.com/107179765/192029276-ffce974a-8fd3-4f58-abbe-20ee44b39bed.png)<br/>
+Assuming our significance level is 0.05, our p-value of 0.06 is above the significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we can state that the PSI across all manufacturing lots is statistically similar from the population mean of 1,500 pounds per square inch.
 ### t-test on the PSI for each manufacturing lot
 #### Lot1 & Lot2
-![3 lot1 sample ttest](https://user-images.githubusercontent.com/107179765/190931922-1051de51-607f-4340-823d-cc1e24aeff6e.png)<br/>
-![3 lot2 sample ttest](https://user-images.githubusercontent.com/107179765/190931924-78454cd5-2efd-40f8-a85e-bacaa675c3ae.png)<br/>
-Here the p-values are both below the significance level of 0.05 percent, so we can reject the null hypothesis and conclude that the PSI across the Lot 1& Lot 2 is statistically different from the population mean.<br/>
+![3 lot1 sample t-test](https://user-images.githubusercontent.com/107179765/192027162-7ba7a9ca-5ef7-4808-bb57-a3cb8aa7c10b.png)<br/>
+![3 lot2 sample t-test](https://user-images.githubusercontent.com/107179765/192027174-58e55a4e-9c00-4e05-a9df-c2e2fea2c7f0.png)<br/>
+Here the p-values are both above the significance level of 0.05 percent, so we can conclude that the PSI across the Lot 1 & Lot 2 is statistically similar to the population mean.<br/>
 #### Lot3
-![3 lot3 sample ttest](https://user-images.githubusercontent.com/107179765/190931942-fa535c54-bb5e-4f25-a5bc-4d88eb90fe0d.png)<br/>
-Here the p-value is above the significance level, so we can conclude that the PSI for Lot3 are statistically similar to the population mean.
+![3 lot3 sample t-test](https://user-images.githubusercontent.com/107179765/192027241-4790f5e7-3dc8-467f-bab6-d7c149c1c0a1.png)<br/>
+Here the p-value is below the significance level, so we can can reject the null hypothesis and conclude that the PSI for Lot3 are statistically different from the population mean.
 
 ## Study Design: MechaCar vs Competition
 1.	Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
@@ -50,6 +50,3 @@ Here the p-value is above the significance level, so we can conclude that the PS
 •	What is the null hypothesis or alternative hypothesis?<br/>
 •	What statistical test would you use to test the hypothesis? And why?<br/>
 •	What data is needed to run the statistical test?
-
-## Summary
-The results show 
